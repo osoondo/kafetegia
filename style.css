@@ -1,0 +1,107 @@
+h1, h2, p {
+  text-align: center;
+}
+
+h1, h2
+{font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 { 
+  font-size: 48px;
+  color: blanchedalmond;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+h2 {
+  font-size: 24px;
+  color: blanchedalmond;
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+/* image img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+hr { 
+  height: 0.5px;
+  background-color: teal;
+  border-color: teal;
+}
+
+body {
+  background-image: url('https://cdn.thespaces.com/wp-content/uploads/2017/09/Bar-Luce-04.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 24px;
+}
+
+.established {
+  font-style: italic;
+  color: blanchedalmond;
+}
+
+.menu {
+  width: 80%;
+  max-width: 500px;
+  background-color: lightcoral;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+
+}
+
+.flavor, .pastry {
+  text-align: left;
+  width: 49%;
+  display: inline-block;
+}
+
+.price { 
+    text-align: right;
+    width: 49%;
+    display: inline-block;
+}
+
+.item p {
+  display: inline-block;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+.bottom-line {
+  margin-top: 24px;
+}
+/* FOOTER */
+
+footer {
+  font-size: 14px;
+}
+
+a {
+  color: blanchedalmond;
+}
+
+a:visited {
+  color: thistle;
+}
+
+a:hover {
+  color:orange;
+}
+
+a:active{
+  color: burlywood;
+}
+
+.address {
+  margin-bottom: 4px;
+}
