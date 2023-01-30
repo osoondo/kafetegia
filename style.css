@@ -3,11 +3,11 @@ h1, h2, p {
 }
 
 h1, h2
-{font-family: Georgia, 'Times New Roman', Times, serif;
+{font-family: Helvetica, Arial, sans-serif;
 }
 
 h1 { 
-  font-size: 48px;
+  font-size: 44px;
   color: blanchedalmond;
   margin-top: 0;
   margin-bottom: 8px;
@@ -36,7 +36,8 @@ body {
   background-image: url('https://cdn.thespaces.com/wp-content/uploads/2017/09/Bar-Luce-04.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: Arial, Helvetica, sans-serif;
+  background-position: center;
+  font-family: Helvetica, Arial, sans-serif;
   padding: 24px;
 }
 
@@ -74,12 +75,40 @@ body {
   display: inline-block;
   margin-top: 8px;
   margin-bottom: 8px;
-  font-size: 18px;
+font-size: 18px;
 }
 
 .bottom-line {
   margin-top: 24px;
 }
+
+.button {
+  background-color: blanchedalmond;
+  border: none;
+  border-radius: 4px;
+  color: teal;
+  padding: 16px 24px;
+  text-align: center;
+  display: flex;
+  font-size: 16px;
+  font-family: Helvetica;
+  margin-top: 48px;
+  margin-bottom: 24px;
+  margin-left: 120px;
+  width: 50%;
+  justify-content: center;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.06), 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.button {
+  transition-duration: 0.2s;
+}
+
+.button:hover {
+  background-color: thistle;
+  color: white;
+}
+
 /* FOOTER */
 
 footer {
